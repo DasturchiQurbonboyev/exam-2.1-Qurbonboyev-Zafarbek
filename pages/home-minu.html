@@ -16,7 +16,59 @@
 </head>
 <body>
     <header>
-
+        <nav class="navbar bg-primary navbar-expand-md  fixed-top">
+      <div class= " container">
+        <a class="navbar-brand" href="#"><img src="../images/logo.png" alt="logo"></a>
+        <button
+          class="navbar-toggler bg-primary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbar"
+          aria-controls="navbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-start w-100"
+          tabindex="-1"
+          id="navbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header bg-primary">
+            <h6 class="offcanvas-title text-white" id="offcanvasNavbarLabel"><img src="../images/logo.png" alt=""></h6>
+            <button
+              type="button"
+              class="btn-close bg-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body bg-primary">
+            <ul class="navbar-nav gap-x-4 justify-content-end flex-grow-1 align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Minu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link contact-us px-5 py-3">Log In</a>
+              </li>
+                </ul>
+              </li>
+            </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
     </header>
     <main>
        <div class="container">
@@ -33,8 +85,8 @@
                     <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">DESSERTS</button>
                     <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">MEAL DEALS</button>
                 </div>
-                <div class="tab-content" id="v-pills-tabContent position-relative">
-                    <div class="position-a tab-pane d-grid gap-5 flex-wrap  grid-cols-2 fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                <div class="tab-content position-relative" id="v-pills-tabContent position-relative">
+                    <div class=" tab-pane d-grid gap-5 flex-wrap  grid-cols-2 fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
                         <div class="tab card  p-3 d-inline-block rounded-[14px]">
                             <div class="tab__title d-grid justify-center ">
                             <img class="tab__title__img-1" src="../images/minu/klipartz.png" alt="img">
@@ -107,7 +159,7 @@
                         </div>
 
                     </div>
-                    <div class="position-absolute tab-pane fade d-grid gap-5 grid-cols-2" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                    <div style="position: absolute;" class="position-absolute tab-pane fade d-grid gap-5 grid-cols-2" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
                         <div class="tab card  p-3 d-inline-block rounded-[14px]">
                             <div class="tab__title d-grid justify-center ">
                             <img class="tab__title__img-1" src="../images/minu/klipartz-1.png" alt="img">
@@ -160,7 +212,7 @@
                     </div>
                     <div class="position-absolute tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">...</div>
                     <div class="position-absolute tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
-                    <div class="position-absolute tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+                    <div class="position-absoute tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
                 </div>
             </div>
        </div>
@@ -241,13 +293,13 @@
           </div>
           <div class="col">
             <div class=" h-100">
-              <img src="./images/logo.png" class="card-img-top" alt="...">
+              <img src="../images/logo.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-title">"The best way to find yourself is to lose yourself in the service of others.”</p>
                 <div class="d-flex gap-2 justify-center">
-                  <img src="./images/minu/u_facebook-f.svg" alt="facebook">
-                  <img src="./images/minu/u_twitter-alt.svg" alt="twitter">
-                  <img src="./images/minu/u_instagram.svg" alt="instagram">
+                  <img src="../images/minu/u_facebook-f.svg" alt="facebook">
+                  <img src="../images/minu/u_twitter-alt.svg" alt="twitter">
+                  <img src="../images/minu/u_instagram.svg" alt="instagram">
                 </div>
               </div>
             </div>
