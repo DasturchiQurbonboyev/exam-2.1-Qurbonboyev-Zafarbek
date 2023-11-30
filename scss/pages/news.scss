@@ -1,0 +1,12 @@
+@import "../utils/variables.scss";
+@import "../utils/mixins.scss";
+
+.updates{
+    margin-bottom: 100px;
+    h1{
+        @include text-style (64px, 500, 130%, 1.92px, #242424, Cera Round Pro);
+    }
+    center{
+        margin-bottom: 60px;
+    }
+}

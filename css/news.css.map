@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"news.css"}
+{"version":3,"sources":["../scss/pages/news.scss","news.css","../scss/utils/mixins.scss"],"names":[],"mappings":"AAGA;EACI,oBAAA;ACFJ;ADGI;EEHA,eFIyB;EEHzB,gBFG+B;EEF/B,iBFEoC;EEDpC,sBFC0C;EEA1C,cAAA;EACA,2BFD2D;ACI/D;ADFI;EACI,mBAAA;ACIR","file":"news.css"}
