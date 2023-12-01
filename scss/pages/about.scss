@@ -1,0 +1,24 @@
+// @import "../utils/variables.scss";
+@import "../utils/mixins.scss";
+
+.container__about{
+    max-width: 720px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about{
+    margin-top: 150px;
+    &__title{
+        text-align: center;
+        @include text-style (64px, 400, 32px 0.8px, #242424, Open Sans);
+    }
+    &__img{
+       display: flex;justify-content: ;
+    }
+}
+
+
+
